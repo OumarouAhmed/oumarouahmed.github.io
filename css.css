@@ -1,0 +1,132 @@
+/* Reset de quelques styles de base pour améliorer la cohérence entre navigateurs */
+body, h1, h2, h3, p, ul, li, table, th, td, form, input, marquee {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style global */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* En-tête */
+header {
+    background-color: #004300;
+    color: #aaa;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Sections principales */
+section {
+    padding: 20px;
+    background-color: #bbb;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+/* Pied de page */
+footer {
+    background-color: #004300;
+    color: #aaa;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Styles spécifiques pour la page d'accueil */
+#accueil {
+    background-color: #f0f0f0;
+}
+
+/* Styles pour les formulaires */
+form {
+    margin-top: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #004300;
+    color: #bcbcbc;
+    cursor: pointer;
+}
+
+/* Styles pour les images */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Styles pour les listes */
+ul, ol {
+    margin-bottom: 15px;
+}
+
+/* Styles pour la balise Marquee */
+marquee {
+    font-size: 18px;
+    color: #004300;
+    white-space: nowrap;
+}
+
+/* Styles pour le tableau */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Styles pour les liens */
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
